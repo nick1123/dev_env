@@ -5,3 +5,5 @@
      ln -s ~/src/dev_env/lib/.bashrc ~/.bashrc
      source ~/.bashrc
      ln -s ~/src/dev_env/lib/.gitconfig ~/.gitconfig
+     ln -s ~/src/dev_env/lib/.vimrc ~/.vimrc
+     ln -s ~/src/dev_env/lib/.vim/ ~/.vim
