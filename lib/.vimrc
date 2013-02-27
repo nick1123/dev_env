@@ -17,6 +17,8 @@ nnoremap <CR> :noh<CR><CR>
 
 set cursorline
 
+" Set leader key
+let mapleader=","
 
 function UseRubyIndent ()
     setlocal tabstop=8
