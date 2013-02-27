@@ -20,6 +20,10 @@ set cursorline
 " Set leader key
 let mapleader=","
 
+" Set col marker at col 80
+set colorcolumn=80
+hi ColorColumn ctermbg=lightgrey guibg=lightgrey 
+
 function UseRubyIndent ()
     setlocal tabstop=8
     setlocal softtabstop=2
