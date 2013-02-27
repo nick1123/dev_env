@@ -1,3 +1,4 @@
+     cd ~
      mkdir src
      cd src
      git clone git@github.com:nick1123/dev_env.git
