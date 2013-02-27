@@ -47,7 +47,7 @@ set novisualbell
 set t_vb=
 set tm=500
 
-" Turn backup off, since most stuff is in SVN, git et.c anyway...
+" Turn backup off, since most stuff is in SVN, git etc anyway...
 set nobackup
 set nowb
 set noswapfile
@@ -57,15 +57,16 @@ set noswapfile
 " set shiftwidth=4
 " set tabstop=4
 
-autocmd vimenter * NERDTree
+"autocmd vimenter * NERDTree
 "autocmd vimenter * if !argc() | NERDTree | endif
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+"autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
 " Return to last edit position when opening files (You want this!)
 autocmd BufReadPost *
      \ if line("'\"") > 0 && line("'\"") <= line("$") |
      \   exe "normal! g`\"" |
      \ endif
+
 " Remember info about open buffers on close
 set viminfo^=%
 
