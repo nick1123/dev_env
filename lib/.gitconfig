@@ -5,3 +5,9 @@
 [alias]
     st = status
     co = checkout
+
+[format]
+   pretty = format:%h %Cblue%cd%Creset %an %Cred%d %Cgreen%s%Creset
+
+[color]
+    ui = auto

@@ -1,6 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
-let g:netrw_dirhist_1='/home/stewie/dev/grunt'
-let g:netrw_dirhist_2='/home/stewie/dev/md/grunt'
-let g:netrw_dirhist_3='/home/stewie/dev/bitbucket/paramedconnect'
-let g:netrw_dirhist_4='/home/stewie/dev/md/grunt'
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/home/stewie/dev/persona'
+let g:netrw_dirhist_2='/home/stewie/dev/batcave'
+let g:netrw_dirhist_3='/home/stewie/dev/atlas'
+let g:netrw_dirhist_4='/home/stewie/dev/grunt'
+let g:netrw_dirhist_5='/home/stewie/dev/persona'
+let g:netrw_dirhist_6='/home/stewie/dev/abacus'
+let g:netrw_dirhist_7='/home/stewie/dev/buttress'
